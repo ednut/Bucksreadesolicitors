@@ -270,12 +270,6 @@
                         </div>
                     </section>
 
-
-                    <script>
-                        $('.flexslider').flexslider({
-                            animation: "slide"
-                        });
-                    </script>
                 </div>
                 
                 <div class="space"></div>
@@ -308,7 +302,11 @@
         <script src="https://ednut.github.io/bucksreadesolicitors/assets/js/controllers/generalController.js"></script>
         <script src="https://ednut.github.io/bucksreadesolicitors/assets/js/jquery.flexslider-min.js"></script>
 
-        <script>           
+        <script>    
+
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });       
 
             $(".bugger-menu ").click(function(){
                 $(".mobile-header").toggle();
